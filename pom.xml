@@ -44,4 +44,12 @@
             <url>https://maven.vaadin.com/vaadin-addons</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub stop-gib-puettstr Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/stop-gib-puettstr/stop-gib-puettstr-bom</url>
+        </repository>
+    </distributionManagement>
 </project>
