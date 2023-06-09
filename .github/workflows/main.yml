@@ -41,12 +41,10 @@ jobs:
       - name: Extract patch version
         id: extract_patch
         run: echo ::set-output name=patch_version::${{ steps.get_version.outputs.version }} | awk -F '.' '{print $3}'
-
+ 
       - name: Increase patch version
         id: increase_patch
         run: |
-          current_version=$RUNNER_WORKSPACE/$GITHUB_REPOSITORY/target/classes/version.txt
-          echo "${{ steps.get_version.outputs.version }}" > $current_version
           new_patch_version=$(( ${{ steps.extract_patch.outputs.patch_version }} + 1 ))
           new_version=$(echo "${{ steps.get_version.outputs.version }}" | sed "s/\(.*\)\.[0-9]*$/\1.$new_patch_version/")
           mvn versions:set -DnewVersion=$new_version
