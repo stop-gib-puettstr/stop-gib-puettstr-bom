@@ -13,7 +13,7 @@
 
     <groupId>org.stop.gib.puettstr</groupId>
     <artifactId>puettstr-bom</artifactId>
-    <version>DEV</version>
+    <version>1.0.0</version>
 
     <name>puettstr-bom</name>
     <description>Bill of materials</description>
@@ -23,7 +23,7 @@
     <properties>
         <java.version>17</java.version>
         <kotlin.version>1.8.21</kotlin.version>
-        <vaadin.version>24.0.5</vaadin.version>
+        <vaadin.version>24.1.0</vaadin.version>
     </properties>
 
     <dependencyManagement>
