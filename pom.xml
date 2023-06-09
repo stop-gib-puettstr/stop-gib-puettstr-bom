@@ -13,7 +13,7 @@
 
     <groupId>org.stop.gib.puettstr</groupId>
     <artifactId>puettstr-bom</artifactId>
-    <version>DEV</version>
+    <version>1.0.0</version>
 
     <name>puettstr-bom</name>
     <description>Bill of materials</description>
