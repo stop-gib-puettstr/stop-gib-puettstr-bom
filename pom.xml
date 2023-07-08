@@ -7,13 +7,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.0</version>
+        <version>3.1.1</version>
         <relativePath/>
     </parent>
 
     <groupId>org.stop.gib.puettstr</groupId>
     <artifactId>puettstr-bom</artifactId>
     <version>1.0.2</version>
+    <version>1.0.1</version>
 
     <name>puettstr-bom</name>
     <description>Bill of materials</description>
